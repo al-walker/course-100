@@ -68,3 +68,12 @@ contacts.each do |name, hash|
     hash[field] = contact_data.shift
   end
 end
+#15
+arr = ['snow', 'winter', 'ice', 'slippery', 'salted roads', 'white trees']
+arr.delete_if { |word| word.start_with?("s") }
+arr = ['snow', 'winter', 'ice', 'slippery', 'salted roads', 'white trees']
+arr.delete_if { |word| word.start_with?("s","w") }
+#16
+a.map! { |s| s.split }.flatten!
+#17
+These hashes are the same.
