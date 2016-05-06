@@ -1,10 +1,11 @@
-#The Basics
 #1
-[1,2,3,4,5,6,7,8,9,10].each do |number|
+arr = [1,2,3,4,5,6,7,8,9,10]
+arr.each do |number|
   puts number
 end
 
-arr = [1,2,3,4,5,6,7,8,9,10]
+arr.each { |n| puts n }
+
 #2
 arr.each do |number|
   if number > 5
